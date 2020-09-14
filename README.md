@@ -5,7 +5,7 @@ Home: https://github.com/googleapis/python-redis
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Google Cloud Memorystore for Redis API client library
 
