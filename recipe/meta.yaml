@@ -1,6 +1,6 @@
 {% set name = "google-cloud-redis" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "70a4cd5bb96f44586a11dbeabcc423d1a883b90d38c5f22948e9f1fd8f39ba33" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "c783118462d9272fb9f519ef43b6ce383e99ad631e922a1f06fbef7148aec7b8" %}
 
 package:
   name: {{ name|lower }}
@@ -35,13 +35,9 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Google Cloud Memorystore for Redis API client library'
-  description: Google Cloud Memorystore for Redis API is a Google Cloud service that lets client applications
-    communicate with a fully managed Redis service for Google Cloud. Applications running on Google Cloud can
-    achieve extreme performance by leveraging the highly scalable, available, secure Redis service without the
-    burden of managing complex Redis deployments.
-
-    See the [quick start guide](https://googleapis.dev/python/redis/latest/index.html#quick-start).
+  summary: Google Cloud Memorystore for Redis API client library
+  description: "Google Cloud Memorystore for Redis API is a Google Cloud service that lets client applications communicate with a fully managed Redis service for Google Cloud. Applications running on Google Cloud can achieve extreme performance by leveraging the highly scalable, available, secure Redis service without the\
+    \ burden of managing complex Redis deployments.\nSee the [quick start guide](https://googleapis.dev/python/redis/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/redis/latest/index.html
   dev_url: https://github.com/googleapis/python-redis
