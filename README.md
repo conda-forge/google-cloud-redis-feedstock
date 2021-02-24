@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-redis
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-redis-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Cloud Memorystore for Redis API client library
+
+Development: https://github.com/googleapis/python-redis
+
+Documentation: https://googleapis.dev/python/redis/latest/index.html
 
 Google Cloud Memorystore for Redis API is a Google Cloud service that lets client applications communicate with a fully managed Redis service for Google Cloud. Applications running on Google Cloud can achieve extreme performance by leveraging the highly scalable, available, secure Redis service without the burden of managing complex Redis deployments.
 See the [quick start guide](https://googleapis.dev/python/redis/latest/index.html#quick-start).
@@ -118,4 +122,5 @@ Feedstock Maintainers
 =====================
 
 * [@parthea](https://github.com/parthea/)
+* [@xylar](https://github.com/xylar/)
 
