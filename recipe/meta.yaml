@@ -11,24 +11,27 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
-    - python
+    - python >=3.4
     - pip >=18.1
   run:
-    - python
+    - python >=3.4
     - google-api-core-grpc >=1.14.0,<2.0.0dev
-    - enum34
 
 test:
   imports:
     - grpc
     - google.cloud.redis
     - google.cloud.redis_v1
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/googleapis/python-redis
@@ -49,3 +52,4 @@ about:
 extra:
   recipe-maintainers:
     - parthea
+    - xylar
