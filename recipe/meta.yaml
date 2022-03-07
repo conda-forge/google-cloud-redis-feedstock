@@ -1,5 +1,5 @@
 {% set name = "google-cloud-redis" %}
-{% set version = "2.7.0" %}
+{% set version = "2.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8b78e011a009d3311a256b69ce139edb70ada54a6dd4e3788179d5bd21bc7d32
+  sha256: b73daea5c463804ebfe1c074ae2011c28b77561c384122aaa874e5252de2ee2b
 
 build:
   number: 0
