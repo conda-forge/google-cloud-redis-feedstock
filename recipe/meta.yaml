@@ -10,7 +10,7 @@ source:
   sha256: b73daea5c463804ebfe1c074ae2011c28b77561c384122aaa874e5252de2ee2b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -20,9 +20,8 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.26.0,<3.0.0dev
-    - packaging >=14.3
-    - proto-plus >=1.4.0
+    - google-api-core-grpc >=1.31.5,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
+    - proto-plus >=1.15.0
 
 test:
   imports:
