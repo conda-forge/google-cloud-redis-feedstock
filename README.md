@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-redis-feedstock/blob/main/LICENSE.txt)
 
-Summary: Google Cloud Memorystore for Redis API client library
+Summary: Google Cloud Redis API client library
 
 Development: https://github.com/googleapis/python-redis
 
