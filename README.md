@@ -1,11 +1,11 @@
-About google-cloud-redis
-========================
+About google-cloud-redis-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-redis-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/googleapis/python-redis
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-redis-feedstock/blob/main/LICENSE.txt)
 
 Summary: Google Cloud Redis API client library
 
