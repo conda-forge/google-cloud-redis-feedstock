@@ -3,7 +3,7 @@ About google-cloud-redis-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-redis-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/python-redis
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-redis
 
 Package license: Apache-2.0
 
