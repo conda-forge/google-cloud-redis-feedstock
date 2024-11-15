@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Redis API client library
 
-Development: https://github.com/googleapis/python-redis
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-redis
 
 Documentation: https://googleapis.dev/python/redis/latest/index.html
 
