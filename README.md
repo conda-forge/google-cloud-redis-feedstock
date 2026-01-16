@@ -13,7 +13,7 @@ Development: https://github.com/googleapis/google-cloud-python/tree/main/package
 
 Documentation: https://googleapis.dev/python/redis/latest/index.html
 
-Google Cloud Memorystore for Redis API is a Google Cloud service that lets client applications communicate with a fully managed Redis service for Google Cloud. Applications running on Google Cloud can achieve extreme performance by leveraging the highly scalable, available, secure Redis service without the burden of managing complex Redis deployments.
+Google Cloud Memorystore for Redis API is a Google Cloud service that lets client applications communicate with a fully managed Redis service for Google Cloud. Applications running on Google Cloud can achieve extreme performance by leveraging the highly scalable, available, secure Redis service without the:: - burden of managing complex Redis deployments.
 See the [quick start guide](https://googleapis.dev/python/redis/latest/index.html#quick-start).
 
 Current build status
