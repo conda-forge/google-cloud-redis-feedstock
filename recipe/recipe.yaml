@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-redis
-  version: "2.20.0"
+  version: "2.21.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_redis-${{ version }}.tar.gz
-  sha256: a672e4c6ac418ff20ce89ef702762d6789c3d56ffd17c313e99f925a258f1e8a
+  sha256: eae9547fecd1e702d6a1ce701c6819d51a7e6c48cd526759948457c7e1241142
 
 build:
   number: 0
